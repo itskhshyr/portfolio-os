@@ -1,8 +1,10 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Main from "./components/Main";
+import FooterSm from "./mobile-components/FooterSm";
+import MainSm from "./mobile-components/MainSm";
 
 function App() {
   return (
@@ -19,8 +21,16 @@ function App() {
         </footer>
       </div>
 
-      <div className="d-block d-sm-none bg-danger">
-        dfdfg
+      <div className="App-mobile d-block d-sm-none ">
+       <header>
+       
+       </header>
+       <main>
+       <MainSm />
+       </main>
+       <footer className="">
+        <FooterSm />
+       </footer>
       </div>
     </>
   );

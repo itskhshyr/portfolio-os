@@ -8,7 +8,7 @@ import ControlModal from "./ControlModal";
 import LiveClock from "./LiveClock";
 const Header = () => {
   return (
-    <div className="App-header bg-danger">
+    <div className="App-header">
       <div className="d-flex ">
         <div className="mx-2"><LiveClock /></div>
         <div className="mx-2">
